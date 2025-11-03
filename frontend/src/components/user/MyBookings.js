@@ -9,7 +9,7 @@ export default function MyBookings(){
             <div className="font-semibold">Booking #{1000+i}</div>
             <div className="text-sm text-gray-600">Movie • Theater • 7:30 PM</div>
           </div>
-          <a href="#" className="btn-secondary">Download Ticket</a>
+          <button type="button" className="btn-secondary">Download Ticket</button>
         </div>
       ))}
     </div>
